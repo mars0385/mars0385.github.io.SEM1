@@ -1,0 +1,12 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 18px;
+    color: rgb(36, 36, 36);
+}
+
+/* 
+    header text colour
+*/
+.site-header {
+    color: white
+}
