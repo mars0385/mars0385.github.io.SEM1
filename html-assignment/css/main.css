@@ -1,7 +1,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    color: slategray;
+    color: darkslategray;
 }
 
 /* header text colour */
@@ -16,20 +16,33 @@ body {
 
 /*  footer stylizing */
 .footer-style {
-    background-color: darkmagenta;
+    background-color: blueviolet;
     color: white;
 }
 
 /* Stylizing navigation */
+nav ul {
+    list-style: none;
+}
 nav ul a,
 nav ul a:link,
 nav ul a:visited {
-    background: darkmagenta;
+    background: blueviolet;
     color: white;
     text-decoration: none;
+    border: 1px solid black;
 }
 
 nav ul a:hover,
 nav ul a:focus {
-    text-decoration: underline;
+    background: blue;
+}
+
+/* stylzing list of hobbies */
+section ul {
+    list-style: square;
+}
+
+section ul:nth-child(odd) {
+    background-color: slategrey;
 }
