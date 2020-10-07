@@ -43,6 +43,6 @@ section ul {
     list-style: square;
 }
 
-section ul:nth-child(odd) {
-    background-color: slategrey;
+section ul li:nth-child(odd) {
+    background-color: lightgrey;
 }
