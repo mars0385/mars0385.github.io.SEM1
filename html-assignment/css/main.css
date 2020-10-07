@@ -1,5 +1,5 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: rgb(36, 36, 36);
 }
@@ -9,4 +9,11 @@ body {
 */
 .site-header {
     color: white
+}
+
+/* 
+    my image id tag
+*/
+#my-image {
+    box-shadow: 0px 0px 5px 1px black;
 }
