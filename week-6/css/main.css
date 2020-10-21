@@ -48,7 +48,9 @@ nav ul a {
     /*  additional styles will make text visible */
     color: white;
     font-size: 1.5rem;
+    /*  adding padding adds space between border and content */
     padding: 1em;
+    /* adding width using viewport width unit */
     width: 50vw;
 }
 
@@ -183,6 +185,6 @@ section p {
 }
 
 /*  adding borders as seperators */
-aside ul li: :last-child {
+aside ul li:last-child {
     border: none;
 }
