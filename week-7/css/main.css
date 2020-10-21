@@ -8,6 +8,10 @@ body {
     background-image: url("../images/white_brick_wall.png");
 }
 
+.container {
+    max-width: 1024;
+}
+
 /* 
     This is a CSS Comment
     Shortcut for adding the comment Control + /
@@ -45,10 +49,35 @@ nav ul a {
 
 /* Selecting class name to style HTML element(s) */
 .orange-text {
-    padding: 1.5m;
+    padding: 1.5em;
+    width: 300px;
+    display: block;
     background: darkslategrey;
     color: orange;
     text-decoration: none;
+}
+
+/* two column layout using float */
+article,
+aside {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid black;
+    padding: 1.5em;
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    width: 20%;
+}
+
+section {
+    clear: both;
 }
 
 /* Selecting id value for styling elements */
