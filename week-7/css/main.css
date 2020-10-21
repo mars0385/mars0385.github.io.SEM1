@@ -6,10 +6,12 @@ body {
     color: darkslategrey;
     /* adding background image */
     background-image: url("../images/white_brick_wall.png");
+    padding-top: 82px;
 }
 
 .container {
-    max-width: 1024;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 /* 
@@ -80,15 +82,22 @@ section {
     clear: both;
 }
 
+.orange-text.large-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 /* Selecting id value for styling elements */
 #tow {
+    position: relative;
     background: orange url("../images/bread.jpg") no-repeat center center;
     background-size: cover;
     /*  additional styles will make text visible */
     color: white;
     font-size: 1.5rem;
     /*  adding padding adds space between border and content */
-    padding: 1em;
+    padding: 1em 1em 3em 1em;
     /* adding width using viewport width unit */
     width: 50vw;
 }
@@ -121,6 +130,15 @@ Selecting element that has attribute of href set to value #tow */
 }
 [target="_blank"] {
     text-transform: uppercase;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0.8);
+    z-index: 999;
 }
 
 /* Using Pseudo Classes
