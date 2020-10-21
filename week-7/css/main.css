@@ -26,16 +26,26 @@ h1,h2,h3,h4,h5,h6 { text-decoration: underline; }
 
 /* Selecting child elements */
 nav ul {
-    list-style: none;
+    list-style: none;    
 }
+
+nav ul li{
+    display: inline-block;
+    width: 49%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
 /* Selecting child elements multiple levels */
 nav ul a {
+    display: block;
     color: darkslategrey;
     text-decoration: none;
 }
 
 /* Selecting class name to style HTML element(s) */
 .orange-text {
+    padding: 1.5m;
     background: darkslategrey;
     color: orange;
     text-decoration: none;
