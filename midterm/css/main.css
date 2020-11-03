@@ -12,6 +12,7 @@ header {
     height: 340px;
 }
 
+/* Setting stlye for entire page */
 .container {
     background-color: lightcyan;
     max-width: 1024px;
@@ -22,6 +23,9 @@ html {
     background-color: #aad4cf;
 }
 
+main {
+    padding: 1em;
+}
 
 /* TEXT STYLIZING */
 h1 {
@@ -33,15 +37,22 @@ h1 {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
+    padding-top: none;
 }
 
-
-
-
-/* Image styling */
-.starfish {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
+/* Starfish Image styling */
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }
+
+/* adding padding between articles */
+article {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 
