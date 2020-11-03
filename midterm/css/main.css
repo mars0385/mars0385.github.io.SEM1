@@ -7,21 +7,42 @@ header {
     /* adding heading image */
     background-image: url("../images/lone-starfish-wide.jpg");
     max-width: 1024px;
+    height: 340px;
     margin: 0 auto;
 }
 
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    background-color: lightcyan;
 }
 
 
 /* TEXT STYLIZING */
 h1 {
     color: white;
+
 }
 /* setting default styles to body text */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
+}
+
+nav ul {
+    list-style: none;    
+}
+
+nav ul li{
+    border: black;
+    display: inline-block;
+    width: 33%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    display: block;
+    color: darkslategray;
+    background-color: lightcyan;
 }
