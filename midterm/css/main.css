@@ -4,24 +4,30 @@ Custom CSS
 
 /* creating page header */
 header {
+    text-align: center;
     /* adding heading image */
     background-image: url("../images/lone-starfish-wide.jpg");
-    max-width: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 340px;
-    margin: 0 auto;
 }
 
 .container {
+    background-color: lightcyan;
     max-width: 1024px;
     margin: 0 auto;
-    background-color: lightcyan;
+}
+
+html {
+    background-color: #aad4cf;
 }
 
 
 /* TEXT STYLIZING */
 h1 {
     color: white;
-
+    font: sans-serif;
+    padding: 200px;
 }
 /* setting default styles to body text */
 body {
@@ -29,20 +35,13 @@ body {
     color: darkslategray;
 }
 
-nav ul {
-    list-style: none;    
-}
 
-nav ul li{
-    border: black;
+
+
+/* Image styling */
+.starfish {
+    width: 50px;
+    height: 50px;
     display: inline-block;
-    width: 33%;
-    padding: 1em;
-    box-sizing: border-box;
 }
 
-nav ul li a {
-    display: block;
-    color: darkslategray;
-    background-color: lightcyan;
-}
