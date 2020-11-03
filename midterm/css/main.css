@@ -18,16 +18,15 @@ header {
     max-width: 1024px;
     margin: 0 auto;
 }
-
 html {
     background-color: #aad4cf;
 }
-
 main {
     padding: 1em;
 }
 
-/* TEXT STYLIZING */
+
+/* TEXT STYLIZING / PAGE SETUP */
 h1 {
     color: white;
     font: sans-serif;
@@ -38,8 +37,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
     padding-top: none;
+    padding-bottom: 1em;
 }
-
 /* Starfish Image styling */
 img {
     width: 300px;
@@ -48,21 +47,40 @@ img {
     padding-right: 20px;
     padding-bottom: 30px;
 }
-
 /* adding padding between articles */
 article h3 {
     padding-top: 2em;
 }
+article ul {
+    padding-left: none;
+}
 
-/* Stlying and forming contact form */
+/* CONTACT FORM STYLES */
 section {
     padding-top: 1em;
 }
-section h3 {
-    margin: 0px;
+section h2 {
+    padding-top: 1em;
 }
 section form{
     border: 1px solid black;
+    padding: 1em;
+}
+/* input boxes */
+input, textarea {
+    width: 100%;
+    padding: 3px;
+}
+label {
+    padding-top: 5px;
+}
+form div {
+    padding: 0.5em;
 }
 
-
+/* Styling footer of site */
+.site-footer {
+    padding: 2em;
+    text-align: right;
+    font-weight: bold;
+}
