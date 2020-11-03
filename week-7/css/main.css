@@ -7,7 +7,7 @@ body {
     /* adding background image */
     background-image: url("../images/white_brick_wall.png");
     padding-top: 82px;
-}
+}  
 
 .container {
     max-width: 1024px;
