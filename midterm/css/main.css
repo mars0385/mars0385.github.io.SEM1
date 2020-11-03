@@ -3,8 +3,25 @@ Custom CSS
 ****************************************/
 
 /* creating page header */
-head {
+header {
     /* adding heading image */
     background-image: url("../images/lone-starfish-wide.jpg");
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* TEXT STYLIZING */
+h1 {
+    color: white;
+}
+/* setting default styles to body text */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
 }
