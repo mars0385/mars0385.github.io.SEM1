@@ -50,9 +50,19 @@ img {
 }
 
 /* adding padding between articles */
-article {
+article h3 {
     padding-top: 2em;
-    padding-bottom: 2em;
+}
+
+/* Stlying and forming contact form */
+section {
+    padding-top: 1em;
+}
+section h3 {
+    margin: 0px;
+}
+section form{
+    border: 1px solid black;
 }
 
 
