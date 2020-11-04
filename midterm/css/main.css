@@ -31,7 +31,7 @@ h1 {
     font-family: 'Trebuchet MS';
     font-size: 60px;
     padding-top: 200px;
-    margin: none;
+    margin: 0;
 }
 /* setting default styles to body text */
 body {
