@@ -29,8 +29,9 @@ main {
 /* TEXT STYLIZING / PAGE SETUP */
 h1 {
     color: white;
-    font: sans-serif;
-    padding: 200px;
+    font-family: 'Trebuchet MS';
+    font-size: 60px;
+    padding-top: 200px;
 }
 /* setting default styles to body text */
 body {
@@ -66,17 +67,22 @@ section form{
     border: 1px solid black;
     padding: 1em;
 }
-/* input boxes */
-input, textarea {
+/* input boxes styling*/
+textarea {
     width: 100%;
     padding: 3px;
 }
+#fullname, #youremail {
+    width: 100%;
+}
+
 label {
     padding-top: 5px;
 }
 form div {
     padding: 0.5em;
 }
+
 
 /* Styling footer of site */
 .site-footer {
