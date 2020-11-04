@@ -100,11 +100,11 @@ form div {
 
 
 /* STYLING NAVIGATION */
-nav ul li {
+nav li {
     text-align: center;
     display: inline-block;
-    width: 32%;
-    border-left: black;
+    width: 320px;
+    height: 50px;
 }
 nav ul a {
     display: block;
@@ -112,4 +112,10 @@ nav ul a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    border-right: 1px solid black;
+    padding-left: 0px;
 }
+nav li:last-child {
+    border-right: none;
+}
+
