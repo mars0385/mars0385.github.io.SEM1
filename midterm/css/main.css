@@ -64,6 +64,11 @@ section form{
     border: 1px solid black;
     padding: 1em;
 }
+/* get rid of padding with facts list */
+section ul {
+    padding-left: 1em;
+    margin: 0;
+}
 /* input boxes styling*/
 textarea {
     width: 100%;
@@ -93,3 +98,18 @@ form div {
     font-weight: bold;
 }
 
+
+/* STYLING NAVIGATION */
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+    border-left: black;
+}
+nav ul a {
+    display: block;
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
