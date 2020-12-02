@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconic Font -->
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/main.css">
     <title>Final Project</title>
@@ -17,26 +19,18 @@
             <!-- Navigation bar -->
             <div class="nav">
                 <ul class="container">
+                    <li><img src="images/logo.png" alt="logo"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li>
-                        <img src="images/logo.png" alt="logo">
-                    </li>
-                    <li>
-                        <p>Home</p>
-                    </li>
-                    <li>
-                        <p>About Us</p>
-                    </li>
-                    <li>
-                        <p>Services</p>
-                    </li>
-                    <li>
-                        <p>Team</p>
-                    </li>
-                    <li>
-                        <p>Contact</p>
-                    </li>
-                    <li>
-                        <p>Form</p>
+                        <form action="index.html" method="get">
+                            <label for="search">Search</label>
+                            <input type="text" id="search">
+                            <button type="submit" id="button"><i class="im im-magnifier"></i></button>
+                        </form>
                     </li>
                  </ul>
             </div>
@@ -45,7 +39,7 @@
                 <div class= "container">
                     <h1>Welcome to Three Star Media</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem atque quos tempore repellendus excepturi, ab in necessitatibus deleniti expedita est quaerat cum culpa facere fuga, voluptate labore at iure!</p>
-                    <a href="">Connect With Us</a>
+                    <a href="">Connect With Us</a><i class="im im-care-right"></i>
                 </div>
             </div>
         </header>
@@ -53,7 +47,7 @@
         <!-- MAIN CONTENT OF SITE -->
         <main>
             <!-- About Section -->
-            <div class="about">
+            <div class="about" id="about">
                 <div class="container">
                     <div>
                         <img src="images/about-us.jpg" alt="about us">
@@ -66,7 +60,7 @@
                 </div>
             </div>
             <!-- Services Section -->
-            <div class="services">
+            <div class="services" id="services">
                 <div class="container">
                     <h2>Our Services</h2>
                     <!-- digital trans -->
@@ -74,35 +68,35 @@
                         <img src="images/digital.jpg" alt="digital">
                         <h3>Digital Transformation</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos numquam veniam similique, temporibus necessitatibus aliquid. Autem accusantium iusto neque nostrum quasi. Cumque velit esse voluptatum rem hic ipsa soluta dolorum.</p>
-                        <a href="">Digital Plans</a>
+                        <a href="">Digital Plans<i class="im im-play"></i></a>
                     </div>
                     <!-- Marketing -->
                     <div>
                         <img src="images/marketing.jpg" alt="marketing">
                         <h3>Marketing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos numquam veniam similique, temporibus necessitatibus aliquid. Autem accusantium iusto neque nostrum quasi. Cumque velit esse voluptatum rem hic ipsa soluta dolorum.</p>
-                        <a href="">Marketing Plans</a>
+                        <a href="">Marketing Plans<i class="im im-play"></i></a>
                     </div>
                     <!-- Video Production -->
                     <div>
                         <img src="images/video.jpg" alt="video">
                         <h3>Video Production</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos numquam veniam similique, temporibus necessitatibus aliquid. Autem accusantium iusto neque nostrum quasi. Cumque velit esse voluptatum rem hic ipsa soluta dolorum.</p>
-                        <a href="">Video Plans</a>
+                        <a href="">Video Plans<i class="im im-play"></i></a>
                     </div>
                     <!-- Web Development -->
                     <div>
                         <img src="images/web.jpg" alt="web">
                         <h3>Web Development</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos numquam veniam similique, temporibus necessitatibus aliquid. Autem accusantium iusto neque nostrum quasi. Cumque velit esse voluptatum rem hic ipsa soluta dolorum.</p>
-                        <a href="">Web Plans</a>
+                        <a href="">Web Plans<i class="im im-play"></i></a>
                     </div>
                     <!-- Print -->
                     <div>
                         <img src="images/print.jpg" alt="print">
                         <h3>Print</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos numquam veniam similique, temporibus necessitatibus aliquid. Autem accusantium iusto neque nostrum quasi. Cumque velit esse voluptatum rem hic ipsa soluta dolorum.</p>
-                        <a href="">Print Plans</a>
+                        <a href="">Print Plans<i class="im im-play"></i></a>
                     </div>
                 </div>
             </div>
@@ -115,7 +109,7 @@
                 </div>
             </div>
             <!-- Our Team Section -->
-            <div class="team">
+            <div class="team" id="team">
                 <div class="container">
                     <h2>Our Team</h2>
                     <!-- John Doe bio -->
@@ -135,13 +129,13 @@
                 </div>
             </div>
             <!-- Contact -->
-            <div class="contact">
+            <div class="contact" id="contact">
                 <div class="container">
                     <h2>Contact Us</h2>
                     <!-- form fillout -->
                     <div class="form">
                         <h3>Send us a message</h3>
-                        <form action="thanks.html" method="post">
+                        <form action="thanks" method="post">
                             <div>
                                 <label for="fullname">Full Name</label>
                                 <input type="text" id="fullname" name="fullname"> 
@@ -188,7 +182,7 @@
         <footer class="site-footer">
             <div class="container">
                 <p>&copy; Copyright Three Star Media, 2020</p>
-                <p>All images are taken from Unsplash</p>
+                <span>All images are taken from <a href="https://unsplash.com">Unsplash</a></span> 
             </div>
         </footer>
     </div>
