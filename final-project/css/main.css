@@ -1,0 +1,347 @@
+/******************************
+            CSS RESET
+******************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/******************************
+            CUSTOM CSS
+******************************/
+
+/* Basic page setup */
+html{
+    font-family: 'Open-Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.site-header,
+.site-footer {
+    background-color: #222;
+}
+
+h1 {
+    color: white;
+    font-size: 400%;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+h2 {
+    color: #222;
+    font-size: 250%;
+    font-weight: bold;
+}
+h3 {
+    color: #222;
+    font-size: 180%;
+    font-weight: bold;
+}
+h4 {
+    font-weight: bold;
+}
+
+
+/******* NAVIGATION *******/
+.nav-list {
+    padding: 1em;
+    list-style: none;
+}
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+  background-color: #c78c06;
+  color: inherit;
+  color:#222;
+}
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
+}
+.nav-list li a{
+    text-align: center;
+    color:  #c78c06;
+    margin:0px;
+}
+.nav-list li:nth-child(1) {
+    background-color:  #c78c06;
+}
+#search {
+    width: 90%;
+    height: 20px;
+}
+
+
+
+/******* SITE BANNER *******/
+.banner {
+    background-image: url("../images/main-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 80px;
+}
+.ban-container {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;  
+    padding: 1em;
+    padding-bottom: 1em;
+}
+.banner .ban-container a {
+    background-color: #c78c06;
+    text-decoration: none;
+    color: #222;
+    padding: 2em;
+    display: inline-block;
+}
+.banner .ban-container p {
+padding-bottom: 2em;
+}
+
+
+
+/******** ABOUT ***********/
+.about .container {
+    background-color: #ffe6ac;
+    padding: 1em;
+}
+.about h2 {
+    padding-top: 1em;
+}
+.about-pic {
+    display: inline-block;
+    max-width: 100%;
+}
+.about p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/******* SERVICES ********/
+.services {
+    padding: 10px;
+}
+.services img{
+    width: 100%;
+}
+.services div {
+    background-color: #ffe6ac;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.services div:nth-child(1) {
+    background-color: white;
+}
+.services h2 {
+    padding-top: 1em;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.services a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 2em;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 1em;
+}
+.services h3, .services p {
+    padding-top: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/****** OUR VISION ******/
+.vision {
+    background-image: url("../images/vision.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.vision h3, .vision p {
+    color: white;
+    padding: 20px;
+}
+.vision a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 2em;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 1em;
+    border: 1px solid #c78c06;
+}
+
+
+
+/****** OUR TEAM *******/
+.team {
+    padding: 10px;
+}
+.team img {
+    width: 100%;
+}
+.john, .bob {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.john h3,
+.john h4,
+.john p {
+    padding-bottom: 10px;
+}
+.bob h3,
+.bob h4,
+.bob p {
+    padding-bottom: 10px;
+}
+
+
+
+/****** CONTACT *******/
+.contact {
+    padding: 10px;
+}
+.contact h2 {
+    padding-bottom: 20px;
+}
+.contact h3 {
+    padding-bottom: 10px;
+}
+#fullname, #email, #message {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.forms button {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 20px;
+}
+.forms {
+    margin-bottom: 20px;
+}
+
+/*** HOURS OF OPERATION ***/
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 1px solid #000;
+    padding: 1em;
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+table th {
+    background-color:  #ffe6ac;
+}
+
+/***** LOCATION ********/
+.location iframe {
+    width: 100%;
+}
+
+
+
+/******** FOOTER *******/
+.site-footer{
+    color: #c78c06;
+    padding: 20px;
+}
+.site-footer p {
+    padding-bottom: 10px;
+}
+.site-footer a {
+    color: #c78c06;
+}
+
+
+
+
+
+/****************************
+        DESKTOP STYLES
+****************************/
+@media screen and (min-width: 760px) {
+    /* Navigation */
+    .nav-list li{
+        display: inline-block;
+        padding: 1em;
+    }
+
+}
